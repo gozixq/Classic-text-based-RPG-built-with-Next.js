@@ -77,16 +77,17 @@ export const handleCommand = (input: string, state: GameState): GameState => {
           nextState.log.push(`💢 You took ${damage} damage!`);
         }
         break;
-    }
-    case 'throw rice': {
+      }
+      case 'throw rice': {
         nextState.log.push('🍚 You throw rice at the chicken.');
         nextState.log.push('🐔 The chicken stares at you blankly.');
         nextState.log.push('🫥 It doesn’t care for cheap carbs.');
+        nextState.log.push('🐔 The chicken is still ignoring your cheap rice...');
         nextState.player.status.push('throw-rice');
         break;
       }
 
-    case 'pay taxes': {
+      case 'pay taxes': {
         nextState.log.push('💸 You filed your taxes and won the game!');
         nextState.gameOver = true;
         nextState.win = true;

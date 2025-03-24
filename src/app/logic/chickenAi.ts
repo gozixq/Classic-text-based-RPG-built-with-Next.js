@@ -28,7 +28,6 @@ export const runChickenAI = (state: GameState): GameState => {
 
   if (state.player.status.includes('throw-rice')) {
     nextState.turn = 'player';
-    nextState.log.push('🐔 The chicken is still ignoring your cheap rice...');
     return checkGameOver(nextState);
   }
 

@@ -6,7 +6,7 @@ const StartScreen: React.FC<{ onStart: () => void }> = ({ onStart }) => {
     <div className="relative h-screen w-screen bg-black text-[#32CD32] font-mono overflow-hidden flex items-center justify-center">
       <BlinkingBits />
       <div className="z-10 border-2 border-[#32CD32] p-8 rounded-md text-center w-2/4 backdrop-blur-sm bg-black/70">
-        <pre className="text-[14px] whitespace-pre-wrap leading-tight mb-6">
+        <pre className="text-[5px] lg:text-[14px] whitespace-pre-wrap leading-tight mb-6">
 {`
 ██╗███████╗███████╗██╗  ██╗ █████╗ ██╗
 ██║██╔════╝██╔════╝██║  ██║██╔══██╗██║
