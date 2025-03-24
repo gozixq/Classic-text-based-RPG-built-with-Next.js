@@ -13,7 +13,7 @@ export default function Page() {
   const [scene, setScene] = useState<Scene>('start');
   const isGameActive = scene === 'start' || scene === 'game' || scene === 'win' || scene === 'lose' || scene === 'pass-out';
   const isWinActive = scene === 'win';
-  const isLoseActive = scene === 'lose';
+  const isLoseActive = scene === 'lose' || scene === 'pass-out';
   const handleRestart = () => setScene('start');
 
 
