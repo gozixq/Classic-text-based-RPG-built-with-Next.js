@@ -23,7 +23,7 @@ Maybe go easier on the booze next time?
         onClick={onRestart}
         className="border border-yellow-400 text-yellow-400 px-6 py-2 text-base hover:bg-yellow-400 hover:text-black transition-all duration-200"
       >
-        🔁 Retry
+        Retry
       </button>
     </div>
   );

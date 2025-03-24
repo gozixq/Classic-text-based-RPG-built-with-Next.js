@@ -25,7 +25,7 @@ The realm shall sing tales of your net-throwing greatness.
         onClick={onRestart}
         className="mt-4 border border-lime-400 text-lime-400 px-6 py-2 text-base hover:bg-lime-400 hover:text-black transition-all duration-200"
       >
-        🔄 Play Again
+        Play Again
       </button>
     </div>
   );

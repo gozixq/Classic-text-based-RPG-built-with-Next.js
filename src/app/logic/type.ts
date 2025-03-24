@@ -22,5 +22,5 @@ export type Player = {
     endingReason?: 'death' | 'pass-out' | 'captured';
   };
   
-  export type Command = 'attack' | 'defend' | 'talk' | 'skill'| 'play dead' | 'drink beer' | 'throw net'| 'throw rice' | 'catch chicken';
+  export type Command = 'attack' | 'defend' | 'talk' | 'skill'| 'play dead' | 'drink beer' | 'throw net'| 'throw rice' | 'catch chicken' | 'pay taxes';
   

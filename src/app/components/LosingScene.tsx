@@ -23,7 +23,7 @@ Try again?
         onClick={onRestart}
         className="border border-red-500 text-red-500 px-6 py-2 text-base hover:bg-red-500 hover:text-black transition-all duration-200"
       >
-        🔁 Retry
+        Retry
       </button>
     </div>
   );
